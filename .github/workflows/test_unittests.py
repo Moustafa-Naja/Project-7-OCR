@@ -3,7 +3,7 @@ import unittest
 import numpy as np
 import pandas as pd
 
-application_test = pd.read_csv('C:\\Users\\m.naja\\P7\\.github\\application_test.csv')
+application_test = pd.read_csv('C:\\Users\\m.naja\\Desktop\\application_test.csv')
 application_test = application_test.dropna()
 features = ["EXT_SOURCE_2", "EXT_SOURCE_3", "CNT_FAM_MEMBERS", "DAYS_REGISTRATION", "AMT_REQ_CREDIT_BUREAU_HOUR"]
 
