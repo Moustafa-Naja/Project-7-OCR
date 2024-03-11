@@ -3,7 +3,7 @@ from dash import html, dcc, Input, Output
 import pickle
 import numpy as np
 
-with open('C:\\Users\\m.naja\\creditmodel.sav', 'rb') as f:
+with open('.github/creditmodel.sav', 'rb') as f:
     pickeled_model = pickle.load(f)
 
     
