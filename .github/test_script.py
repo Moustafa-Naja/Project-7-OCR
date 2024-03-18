@@ -10,7 +10,7 @@ import numpy as np
 df = pd.read_csv('.github/dataset.csv')
 
 # Load the test data
-X_test = df["EXT_SOURCE_2", "EXT_SOURCE_3", "CNT_FAM_MEMBERS", "DAYS_REGISTRATION", "AMT_REQ_CREDIT_BUREAU_HOUR"]
+X_test = df[["EXT_SOURCE_2", "EXT_SOURCE_3", "CNT_FAM_MEMBERS", "DAYS_REGISTRATION", "AMT_REQ_CREDIT_BUREAU_HOUR"]]
 y_test = df['TARGET']
 
 # Make predictions
