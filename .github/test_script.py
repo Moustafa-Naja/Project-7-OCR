@@ -7,7 +7,7 @@ with open('.github/creditmodel.sav', 'rb') as f:
 import numpy as np
 
 
-df = pd.read_csv('.github/final_df_5.csv')
+df = pd.read_csv('.github/dataset.csv')
 
 # Load the test data
 X_test = df["EXT_SOURCE_2", "EXT_SOURCE_3", "CNT_FAM_MEMBERS", "DAYS_REGISTRATION", "AMT_REQ_CREDIT_BUREAU_HOUR"]
